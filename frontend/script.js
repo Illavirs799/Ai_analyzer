@@ -10,7 +10,7 @@ const loadingSection = document.getElementById('loading');
 const resultsSection = document.getElementById('results');
 const errorToast = document.getElementById('error-message');
 
-const ENDPOINT = 'http://127.0.0.1:5000/api/analyze';
+const ENDPOINT = 'https://ai-analyzer-1-aru5.onrender.com/api/analyze';
 
 // UI Feedback: Handle file name displays upon selector update
 resumeFileInput.addEventListener('change', (e) => {
